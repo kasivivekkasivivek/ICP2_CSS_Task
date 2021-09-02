@@ -221,6 +221,9 @@ footer {
   background-color: rgb(245, 208, 0);
  }
 
+ .spna_ele{
+  padding:10px;
+ }
 
 footer li {
   display: inline;
