@@ -170,21 +170,38 @@ footer {
 
 /* recent search bar icons container */
 .recent_tabs_container{
-  width:100%;
+  width: 100%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 /* recent search items container */
 .items_container{
-  width:100%;
-  margin-top: 20px;
+  width: 100%;
+  margin-top:20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+}
+.recent_tabs_image_container{
+  width:100px;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent_tabs_image{
+  display: flex;
+  width:70px !important;
+  height:70px !important;
+  margin:5px;
+  margin-bottom:10px;
+  border-radius: 8px;
 }
 /* recent search item */
 .recent-search-item{
@@ -194,6 +211,8 @@ footer {
   margin:5px;
   padding:10px;
 }
+
+
 
 /* adding colors to each item */
 #item_1{
