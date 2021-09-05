@@ -186,6 +186,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+/* recent tabs image container */
 .recent_tabs_image_container{
   width:100px;
   height:100px;
@@ -195,6 +196,7 @@ footer {
   align-items: center;
 }
 
+/* image container */
 .recent_tabs_image{
   display: flex;
   width:70px !important;
@@ -203,6 +205,8 @@ footer {
   margin-bottom:10px;
   border-radius: 8px;
 }
+
+
 /* recent search item */
 .recent-search-item{
   width:70px;
