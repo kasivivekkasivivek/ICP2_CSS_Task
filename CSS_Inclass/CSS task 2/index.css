@@ -1,0 +1,51 @@
+
+/* main container properties */
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* grid container properties*/
+.grid_items_container{
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* grid items property*/
+.grid_items{
+    width:70px;
+    height:70px;
+    margin:5px;
+}
+
+/* each grid item */
+#item_1{
+    background-color: chocolate !important;
+   }
+   #item_2{
+     background-color:rgb(79, 95, 110);
+    }
+   #item_3{
+     background-color: rgb(35, 135, 182);
+    }
+   #item_4{
+     background-color: rgb(236, 13, 13);
+    }
+   #item_5{
+     background-color: rgb(210, 30, 114);
+    }
+   #item_6{
+     background-color: rgb(99, 247, 0);
+    }
+   #item_7{
+     background-color: rgb(0, 0, 0);
+    }
+   #item_8{
+     background-color: rgb(245, 208, 0);
+    }
